@@ -91,7 +91,7 @@ Use the `_config.yml` file to specify your project name, search engine, links to
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/whereeverIputthis. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/LisaFC/testtheme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
