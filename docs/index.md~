@@ -1,0 +1,12 @@
+---
+title: Docs
+headline: Welcome
+sidenav: doc-side-home-nav.html
+bodyclass: docs
+layout: docs
+type: markdown
+---
+
+# Welcome
+
+Welcome to our template site.

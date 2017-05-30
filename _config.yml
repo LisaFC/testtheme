@@ -1,0 +1,57 @@
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+highlighter: rouge
+
+baseurl:
+
+liquid:
+  error_mode: strict
+
+sass:
+  style: compressed
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+excerpt_separator: <!--end_excerpt-->
+
+collections:
+  docs:
+    output: true
+  faq:
+    output: false
+  glossary:
+    output: false
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+# Custom search engine cx value for search box: create and get yours at https://cse.google.com/
+
+search_engine: "013699703217164175118:veyyqmfmpj4"
+
+# Miscellaneous project information
+
+project_name: "Template"
+
+project_desc: "A lovely template site"
+
+copyright_notice: "Copyrighty copyrighty"
+
+doc_call: "hi dere"
+
+# Community links for footer
+
+stackoverflow_link:
+user_mailing_link:
+dev_mailing_link:
+slack_link:
+github_link: 
+
+
+
+

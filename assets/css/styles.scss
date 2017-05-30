@@ -1,0 +1,71 @@
+---
+sitemap_exclude: y
+---
+
+@import url("https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css");
+
+// Colors: edit to add your site's color scheme here
+
+// Brand Colors
+$mainBrandColor: #466BB0;
+$secondBrandColor: #286AC7;
+$thirdBrandColor: #98B2E0;
+$inverseBrandColor: #FFFFFF;
+
+// Use as an accent color in small quantities to balance out the main theme.
+$popBrandColor: hsl(3, 90%, 75%);
+$lightPopBrandColor: lighten($popBrandColor, 15%);
+
+// General Colors
+$black: #2E2E2E;
+$white: #FFFFFF;
+$gray: #737373;
+$light-gray: lighten($gray, 52%);
+$dark-gray: darken($gray, 20%);
+
+$linkColor: $mainBrandColor;
+$linkHoverColor: darken($linkColor, 10%);
+$linkColorSecondary: $white;
+$linkColorTertiary: $gray;
+$codeColor: darken($linkColor, 20%);
+$codeBkColor: lighten($thirdBrandColor, 10%);
+$wellColor: #F9F9F9;
+$textColor: #535f61;
+$titleColor: #555555;
+$headingsColor: rgb(21, 91, 103);
+$footerColor: #4e4f4f;
+$footerText: #eaeaea;
+$errorColor: #C40003;
+
+// Import template stylesheets
+
+@import "base/config";
+@import "base/reset";
+@import "base/common";
+@import "base/text";
+@import "base/override";
+@import "base/markdown";
+
+@import "modules/buttons";
+@import "modules/doc-nav";
+@import "modules/footer";
+@import "modules/hero";
+@import "modules/nav";
+@import "modules/search-box";
+@import "modules/section-index";
+@import "modules/syntax-highlighting";
+
+@import "layouts/about";
+@import "layouts/blog";
+@import "layouts/bugs";
+@import "layouts/community";
+@import "layouts/docs";
+@import "layouts/faq";
+@import "layouts/landing";
+@import "layouts/post";
+@import "layouts/search-results";
+@import "layouts/troubleshooting";
+
+// Additional CSS including overrides for imported stylesheet settings goes here
+
+
